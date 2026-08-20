@@ -1,4 +1,5 @@
 import type { ZudokuConfig } from "zudoku";
+import { myPlugin } from "./plugins/common-plugin";
 
 const config: ZudokuConfig = {
   site: {
@@ -61,6 +62,7 @@ const config: ZudokuConfig = {
       path: "/api",
     },
   ],
-};
+  // plugins: [myPlugin],
+};   
 
 export default config;
