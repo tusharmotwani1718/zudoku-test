@@ -1,5 +1,4 @@
 import type { ZudokuConfig } from "zudoku";
-import { myPlugin } from "./plugins/common-plugin";
 
 const config: ZudokuConfig = {
   site: {
@@ -63,6 +62,6 @@ const config: ZudokuConfig = {
     },
   ],
   // plugins: [myPlugin],
-};   
+};
 
 export default config;
