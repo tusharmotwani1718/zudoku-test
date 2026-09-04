@@ -1,4 +1,7 @@
 import type { ZudokuConfig } from "zudoku";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 
 const config: ZudokuConfig = {
   site: {
@@ -62,6 +65,10 @@ const config: ZudokuConfig = {
     },
   ],
   // plugins: [myPlugin],
+  build: {
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeKatex],
+  },
 };
 
 export default config;

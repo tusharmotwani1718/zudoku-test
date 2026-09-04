@@ -12,6 +12,8 @@
   "dependencies": {
     "react": ">=19.2.0",
     "react-dom": ">=19.2.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
     "zudoku": "0.83.1"
   },
   "devDependencies": {
